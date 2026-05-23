@@ -25,3 +25,5 @@ The workflow includes:
 | `scaler.pkl` | StandardScaler for feature normalization |
 | `label_encoder.pkl` | Label encoder for species names |
 | `README.md` | This file |
+
+streamlit link (https://iris-proyect-data-mining-guqd3ngxo9emnhvyvgfkhe.streamlit.app/)
