@@ -25,10 +25,3 @@ The workflow includes:
 | `scaler.pkl` | StandardScaler for feature normalization |
 | `label_encoder.pkl` | Label encoder for species names |
 | `README.md` | This file |
-
-## How to Run the Dashboard Locally
-
-### 1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd <repo-folder>
