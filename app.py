@@ -57,7 +57,7 @@ new_df['Species'] = 'New Sample'
 
 combined = pd.concat([df_pca, new_df], ignore_index=True)
 fig_3d = px.scatter_3d(combined, x='PC1', y='PC2', z='PC3', color='Species',
-                       symbol='Species', symbol_map={'New Sample': 'star'},
+                       symbol='Species', symbol_map={'New Sample': 'diamond'},
                        title="3D PCA Projection: Dataset + New Sample")
 st.plotly_chart(fig_3d, use_container_width=True)
 
